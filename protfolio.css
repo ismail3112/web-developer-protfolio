@@ -19,6 +19,7 @@ body {
     font-style: normal;
     font-weight: 700;
     padding: 15px 35px;
+    cursor: pointer;
 }
 
 
@@ -53,7 +54,7 @@ nav a {
 }
 
 /* header style */
-.header {
+header {
     background-color: #FFF8F3;
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
@@ -179,4 +180,35 @@ main section {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+}
+
+.resumi-item-institute, .resumi-item-description{
+    color: #757575;
+}
+
+.resumi-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resumi-item-title{
+color:#474747;
+font-size: 25px;
+font-weight: 700;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+
+.downloaed-cv{
+    text-align: center;
+}
+
+/* footer-style */
+
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
 }
